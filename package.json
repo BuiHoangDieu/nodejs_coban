@@ -4,24 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "(https://github.com/BuiHoangDieu/nodejs_coban.git)"
   },
-  "author": "Dieu",
+  "author": "Dieu@kma.com",
   "license": "ISC",
   "dependencies": {
     "@babel/node": "^7.22.5",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/preset-env": "^7.22.5",
     "body-parser": "^1.20.2",
+    "dotenv": "^16.1.4",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "mysql2": "^3.3.4",
     "nodemon": "^2.0.22"
   },
   "devDependencies": {
     "@babel/cli": "^7.22.5",
-    "@babel/core": "^7.22.5"
+    "@babel/core": "^7.22.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7"
   }
 }
